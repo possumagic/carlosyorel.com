@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuncio de Helicópteros Militares</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            width: 80%;
+            margin: 20px 0;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form label, form input, form textarea, form button {
+            margin: 5px 0;
+        }
+        form input, form textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form button {
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Descubre los Nuevos Helicópteros Militares</h1>
+        <nav>
+            <ul>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#especificaciones">Especificaciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="caracteristicas">
+        <h2>Características Principales</h2>
+        <p>Nuestros helicópteros militares están diseñados para ofrecer la máxima eficiencia en operaciones tácticas, rescates y transporte de tropas. Equipados con tecnología de última generación, garantizan la seguridad y el éxito de cada misión.</p>
+        <ul>
+            <li>Sistemas avanzados de navegación y comunicación</li>
+            <li>Blindaje reforzado</li>
+            <li>Capacidad para todo tipo de terrenos</li>
+            <li>Equipo de rescate y evacuación</li>
+            <li>Compatibilidad con armamento de última generación</li>
+            <li>Asientos ergonómicos y espacio de carga optimizado</li>
+        </ul>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería</h2>
+        <div class="gallery">
+            <img src="h1.jpg" alt="Helicóptero Militar 1">
+            <img src="h2.jpg" alt="Helicóptero Militar 2">
+            <img src="h3.jpg" alt="Helicóptero Militar 3">
+        </div>
+    </section>
+
+    <section id="especificaciones">
+        <h2>Especificaciones Técnicas</h2>
+        <table>
+            <tr>
+                <th>Especificación</th>
+                <th>Detalle</th>
+            </tr>
+            <tr>
+                <td>Motor</td>
+                <td>Turbina de gas de alta potencia</td>
+            </tr>
+            <tr>
+                <td>Velocidad máxima</td>
+                <td>300 km/h</td>
+            </tr>
+            <tr>
+                <td>Autonomía</td>
+                <td>800 km</td>
+            </tr>
+            <tr>
+                <td>Capacidad de carga</td>
+                <td>2000 kg</td>
+            </tr>
+            <tr>
+                <td>Sistemas de defensa</td>
+                <td>Contramedidas electrónicas y blindaje</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="#">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Helicópteros Militares Internacionales. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
